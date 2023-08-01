@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="starknet logo" src="https://github.com/lambdaclass/lambdaworks_stark_platinum/assets/569014/ad8d7943-f011-49b5-a0c5-f07e5ef4133e" width="600" >
+  <img alt="starknet logo" src="https://github.com/lambdaclass/lambdaworks_stark_platinum/assets/569014/ad8d7943-f011-49b5-a0c5-f07e5ef4133e" width="400" >
   <h1 style="font-size: larger;">
     <img src="https://github.com/Nadai2010/Nadai-SHARP-Starknet/blob/master/im%C3%A1genes/Starknet.png" width="40">
     <strong>Guía Lambdaworks STARKs Prover Platinum</strong>
@@ -56,9 +56,10 @@ gh repo clone lambdaclass/lambdaworks_stark_platinum
 git clone git@github.com:lambdaclass/lambdaworks_stark_platinum.git
 ```
 
-También puede clonar este repositorio en el que ya tendrá las archivos en `CASM` y `JSON`.
-
-* 
+* También puede clonar este repositorio en el que ya tendrá las archivos en `CASM` y `JSON`.
+```bash
+gh repo clone Nadai2010/Lambda-Guia-Platinum
+```
 
 <div align="left">
 <img src="img/image.png" width="500">
