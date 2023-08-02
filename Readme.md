@@ -1,9 +1,9 @@
 <div align="center">
-    <h1 style="font-size: larger;">
-    <img src="https://github.com/Nadai2010/Nadai-SHARP-Starknet/blob/master/im%C3%A1genes/Starknet.png" width="40">
-    <strong>Lambdaworks Stark Platinum Prover</strong>
-</h1>
-</div>
+  <h1 style="font-size: larger;">
+   <strong>Lambdaworks Stark Platinum Prover</strong>
+   </h1>
+  <img src="https://github.com/lambdaclass/lambdaworks_stark_platinum/assets/569014/ad8d7943-f011-49b5-a0c5-f07e5ef4133e" width="400" >
+
 
 Este Prover todavía está en desarrollo y puede contener errores. No está destinado a ser utilizado en producción por el momento.
 
@@ -12,6 +12,10 @@ Por favor, revisa los problemas bajo la etiqueta de seguridad y espera a que se 
 La salida integrada (output builtin) está completa y se admite la comprobación de rango (range check), pero aún no es sólida.
 
 Esperamos tener algo funcional y en buen estado para mediados de agosto de 2023.
+
+</div>
+
+---
 
 ## Principales bloques de construcción
 
