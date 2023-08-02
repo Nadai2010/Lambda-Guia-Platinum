@@ -73,7 +73,11 @@ Una vez que hayas clonado el repositorio, si deseas utilizar programas Cairo (Ca
 git clone https://github.com/starkware-libs/cairo
 ```
 
-Luego iremos a la carpeta de Cairo que acabamos de clonar ejecutando:
+Luego iremos a la carpeta de Cairo que acabamos de clonar y ejecutamos:
+
+```bash
+cd cairo
+```
 
 ```bash
 git checkout v1.1.0
@@ -81,6 +85,7 @@ git checkout v1.1.0
 <div align="left">
 <img src="img/image-2.png" width="500">
 </div>
+
 
 Ahora debes convertir el programa Cairo en un archivo `JSON` usando el comando `starknet-compile`, y luego en `CASM` usando el comando `starknet-sierra-compile`. A continuación, se muestra el procedimiento:
 
@@ -100,6 +105,7 @@ cargo run --bin starknet-sierra-compile -- ./examples/fibonacci_cairo1.json ./ex
 <img src="img/image-4.png" width="500">
 </div>
 
+
 Luego puedes probar el prover y el verificador usando el comando `make prove` y `make verify`, respectivamente. Asegúrate de especificar la ruta correcta del programa Cairo que deseas probar o verificar y la ruta de salida, en nuestro caso movimos el archivo `CASM` a la raíz del proyecto y ejecutamos:
 
 ```bash
@@ -110,6 +116,7 @@ make verify PROOF_PATH=fibonacci_proof
 <div align="left">
 <img src="img/image-7.png" width="500">
 </div>
+
 
 ## Comandos Rápidos
 
